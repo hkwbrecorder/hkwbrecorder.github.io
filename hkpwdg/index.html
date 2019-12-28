@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <title>微博香港其人其事观察</title>
+  <meta name="description" content="" />
+  <meta name="author" content="HKer WeiBo Recorder" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="generator" content="kitab theme by Darshan in Hugo 0.62.0" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/css/kitab.css" />
+
+  <script src="/js/myFunctions.js"></script>
+  <script src="/js/clipboard.min.js"></script>
+</head>
+
+  <body class="container" style="max-width: 1024px;">
+    <nav class="mt-2 border-bottom">
+  <div class="d-flex flex-row position-relative">
+    <a href="/"
+      ><i title="Home" class="nav-menu mr-2 mt-1 fas fa-home"></i
+    ></a>
+    <div class="position-relative">
+  <i
+    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-book"
+    onclick="expandMenu(this)"
+    title="Show all books"
+  ></i>
+  <div
+    class="show bg-light shadow mt-2"
+    style="position: absolute;
+      min-width: 280px;
+      max-width: 75%;
+      z-index: 1;
+      max-height: 0px;
+      overflow: hidden;"
+  >
+    <div class="p-2">
+      <strong>
+        观察对象
+      </strong>
+      <ul class="list-unstyled ml-1">
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkpg/">
+            HKP-Group
+          </a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkpwg/">
+            HKPW-Group
+          </a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkpv/">
+            HKP大V粉团
+          </a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkpwdg/">
+            HKP监督团
+          </a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkpfans/">
+            HKP粉丝团
+          </a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkpuf/">
+            HKP脱粉团
+          </a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkpw2/">
+            小雅猪
+          </a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkpw1/">
+            我们是HKP嫂
+          </a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkp2/">
+            臭臭CP
+          </a>
+        </li>
+        
+        <li class="hanging">
+          <a href="https://hkwbrecorder.github.io/hkp1/">
+            草委
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+</nav>
+
+    <main class="mt-3" style="margin-left: 32px;">
+      
+<div class="row mb-2 no-gutters">
+  
+  
+  
+  <div class="col-md-12 p-2 mt-2 rounded shadow">
+    
+    <h3>HKP监督团</h3>
+    
+    <h5>HKP Watchdog Group</h5>
+    
+    
+    <br>
+    <h5>
+        <b>
+            大事记
+        </b>
+    </h5>
+    <ul class="list-unstyled border-top border-primary">
+      
+      <li>
+        <a href="https://hkwbrecorder.github.io/hkpwdg/2019-12-28-1/">
+          2019-12-28 正面对HPKW提出批评意见1
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://hkwbrecorder.github.io/hkpwdg/2019-12-28-2/">
+          2019-12-28 正面对HPKW提出批评意见2
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    </main>
+    <div class="side-bar">
+  
+  <p class="mb-1 mt-1 text-left">
+    <i
+      class="nav-menu fas fa-chevron-circle-up"
+      title="Scroll to top"
+      onclick="scrollToTop()"
+    ></i>
+  </p>
+  <p class="mb-1 mt-1 text-left">
+    <i
+      title="Copy URL to share"
+      class="nav-menu fas fa-share-alt"
+    ></i>
+  </p>
+</div>
+
+<script>
+  function displayCopyMessage(bool) {
+    let alertMessage = "";
+    if (bool) {
+      alertMessage = "Link copied to clipboard";
+    } else {
+      alertMessage = "Link could not be copied to clipboard";
+    }
+    let copiedMessage = document.createElement("div");
+    copiedMessage.id = "copiedMessage";
+    copiedMessage.textContent = alertMessage;
+    copiedMessage.classList.add(
+      "bg-warning",
+      "shadow",
+      "d-block",
+      "text-center"
+    );
+    document.body.appendChild(copiedMessage);
+
+    setTimeout(function() {
+      copiedMessage.style.opacity = 0;
+    }, 500);
+    setTimeout(function() {
+      document.body.removeChild(copiedMessage);
+    }, 1500);
+  }
+
+  let clipboard = new ClipboardJS(".fa-share-alt", {
+    text: function() {
+      return "https:\/\/hkwbrecorder.github.io\/hkpwdg\/";
+    }
+  });
+
+  clipboard.on("success", function() {
+    displayCopyMessage(true);
+  });
+
+  clipboard.on("error", function() {
+    displayCopyMessage(false);
+  });
+</script>
+
+    <footer class="d-flex flex-row flex-wrap justify-content-between">
+  <div class="d-flex flex-column">
+    <span class="mb-1">
+      <b>© Copyright 2019 HKer.WeiBo.Recorder</b>
+    </span>
+  </div>
+  <p class="about text-left mb-0">
+      <b>Author: HKer WeiBo Recorder</b>
+  </p>
+</footer>
+
+  </body>
+</html>
