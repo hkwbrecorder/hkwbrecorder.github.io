@@ -129,18 +129,16 @@
   </div>
 </nav>
 
-    <main class="mt-3" style="margin-left: 32px;">
+    <main class="mt-3" style="margin-left: 0px;">
       
 <div class="row mb-2 no-gutters">
   
   
   
   <div class="col-md-12 p-2 mt-2 rounded shadow">
-    
     <h3>HKP监督团</h3>
     
     <h5>HKP Watchdog Group</h5>
-    
     
     <br>
     <h5>
@@ -167,74 +165,12 @@
 </div>
 
     </main>
-    <div class="side-bar">
-  
-  <p class="mb-1 mt-1 text-left">
-    <i
-      class="nav-menu fas fa-chevron-circle-up"
-      title="Scroll to top"
-      onclick="scrollToTop()"
-    ></i>
-  </p>
-  <p class="mb-1 mt-1 text-left">
-    <i
-      title="Copy URL to share"
-      class="nav-menu fas fa-share-alt"
-    ></i>
-  </p>
-</div>
-
-<script>
-  function displayCopyMessage(bool) {
-    let alertMessage = "";
-    if (bool) {
-      alertMessage = "Link copied to clipboard";
-    } else {
-      alertMessage = "Link could not be copied to clipboard";
-    }
-    let copiedMessage = document.createElement("div");
-    copiedMessage.id = "copiedMessage";
-    copiedMessage.textContent = alertMessage;
-    copiedMessage.classList.add(
-      "bg-warning",
-      "shadow",
-      "d-block",
-      "text-center"
-    );
-    document.body.appendChild(copiedMessage);
-
-    setTimeout(function() {
-      copiedMessage.style.opacity = 0;
-    }, 500);
-    setTimeout(function() {
-      document.body.removeChild(copiedMessage);
-    }, 1500);
-  }
-
-  let clipboard = new ClipboardJS(".fa-share-alt", {
-    text: function() {
-      return "https:\/\/hkwbrecorder.github.io\/hkpwdg\/";
-    }
-  });
-
-  clipboard.on("success", function() {
-    displayCopyMessage(true);
-  });
-
-  clipboard.on("error", function() {
-    displayCopyMessage(false);
-  });
-</script>
-
-    <footer class="d-flex flex-row flex-wrap justify-content-between">
-  <div class="d-flex flex-column">
+    <footer class="flex-wrap">
+  <div class="text-center">
     <span class="mb-1">
-      <b>© Copyright 2019 HKer.WeiBo.Recorder</b>
+      © Copyright 2019 HKer.WeiBo.Recorder
     </span>
   </div>
-  <p class="about text-left mb-0">
-      <b>Author: HKer WeiBo Recorder</b>
-  </p>
 </footer>
 
   </body>
