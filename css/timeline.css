@@ -1,10 +1,8 @@
 @charset "UTF-8";
 .timeline {
     width: 100%;
-    background: #fff;
     padding: 100px 50px;
     position: relative;
-    box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
   }
   .timeline:before {
     content: '';
@@ -29,8 +27,8 @@
   .entry .title {
     margin-bottom: .5em;
     float: left;
-    width: 39%;
-    padding-right: 30px;
+    width: 33%;
+    padding-right: 25px;
     text-align: right;
     position: relative;
   }
@@ -57,7 +55,7 @@
   .entry .body {
     margin: 0 0 3em;
     float: right;
-    width: 60%;
+    width: 66%;
     padding-left: 30px;
   }
   .entry .body p {
