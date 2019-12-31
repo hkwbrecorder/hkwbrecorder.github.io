@@ -29,7 +29,7 @@
   .entry .title {
     margin-bottom: .5em;
     float: left;
-    width: 33%;
+    width: 39%;
     padding-right: 30px;
     text-align: right;
     position: relative;
@@ -42,7 +42,7 @@
     border: 7px solid salmon;
     background-color: #fff;
     border-radius: 100%;
-    top: 20%;
+    top: 15%;
     right: -7px;
     z-index: 99;
   }
@@ -57,7 +57,7 @@
   .entry .body {
     margin: 0 0 3em;
     float: right;
-    width: 66%;
+    width: 60%;
     padding-left: 30px;
   }
   .entry .body p {
