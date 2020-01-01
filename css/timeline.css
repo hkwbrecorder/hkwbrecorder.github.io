@@ -44,6 +44,7 @@
     right: -7px;
     z-index: 99;
   }
+
   .entry .title h3 {
     margin: 0;
     font-size: 2vw;
@@ -52,6 +53,7 @@
     margin: 0;
     font-size: 1vw;
   }
+
   .entry .body {
     margin: 0 0 3em;
     float: right;
@@ -77,5 +79,5 @@
   }
 
   .entry .body ul li {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
